@@ -1,0 +1,1286 @@
+* {
+    margin: 2px;
+    padding: 2px;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    align-items: center;
+}
+
+.navbarItems {
+    display: flex;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    margin-left: 35px;
+}
+
+img {
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.body {
+    text-align: center;
+    justify-content: center;
+}
+
+.topcontainer {
+    margin-top: 30px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.text1 {
+    position: absolute;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    bottom: 750px;
+    left: 400px;
+}
+
+.text2 {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    bottom: 700px;
+    left: 460px;
+}
+
+.text3 {
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    color: grey;
+    bottom: 660px;
+    left: 500px;
+}
+
+.btndisplay {
+    display: flex;
+}
+
+.colorbtn {
+    position: absolute;
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    background-color: rgb(6, 24, 143);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    bottom: 600px;
+    left: 500px;
+}
+
+.colorbtn:hover {
+    background-color: rgba(97, 97, 167, 0.289);
+    font-size: large;
+    color: black;
+}
+
+.nocolorbtn {
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    color: black;
+    border-radius: 15px;
+    border: solid rgb(6, 24, 143);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    bottom: 600px;
+    left: 640px;
+}
+
+.nocolorbtn:hover {
+    background-color: rgb(6, 24, 143);
+    color: white;
+    font-size: large;
+}
+
+.container {
+    position: relative;
+}
+
+.containertext {
+    position: absolute;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: bolder;
+    bottom: 700px;
+    left: 400px;
+}
+
+.containertext2 {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    bottom: 645px;
+    left: 295px;
+}
+
+.btndisplay2 {
+    display: flex;
+}
+
+.colorbtn2 {
+    position: absolute;
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    background-color: rgb(6, 24, 143);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    bottom: 600px;
+    left: 430px;
+}
+
+.colorbtn2:hover {
+    background-color: rgb(7, 14, 148);
+    font-size: large;
+}
+
+.nocolorbtn2 {
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    border: solid rgb(6, 24, 143);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    bottom: 600px;
+    left: 570px;
+}
+
+.nocolorbtn2:hover {
+    background-color: rgb(6, 24, 143);
+    color: white;
+    font-size: large;
+}
+
+.container2 {
+    position: relative;
+}
+
+.containertext3 {
+    position: absolute;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight: bolder;
+    bottom: 800px;
+    left: 490px;
+}
+
+.containertext4 {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    bottom: 750px;
+    left: 300px;
+}
+
+.btndisplay3 {
+    display: flex;
+}
+
+.colorbtn3 {
+    position: absolute;
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    background-color: rgb(6, 24, 143);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    bottom: 700px;
+    left: 500px;
+}
+
+.colorbtn3:hover {
+    background-color: rgb(7, 14, 148);
+    font-size: large;
+}
+
+.nocolorbtn4 {
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    color: black;
+    border-radius: 15px;
+    border: solid rgb(6, 24, 143);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    bottom: 700px;
+    left: 640px;
+}
+
+.nocolorbtn4:hover {
+    background-color: rgb(6, 24, 143);
+    color: white;
+    font-size: large;
+}
+
+.flexcontainer {
+    display: flex;
+    align-items: start;
+    position: relative;
+}
+
+.flexcontainertext1 {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    bottom: 500px;
+    left: 250px;
+}
+
+.flexcontainertext2 {
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    bottom: 470px;
+    left: 130px;
+}
+
+.flexcontainertextbtn {
+    display: flex;
+}
+
+.flexcontainertextbtn1 {
+    position: absolute;
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    background-color: rgb(6, 24, 143);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    bottom: 420px;
+    left: 180px;
+}
+
+.flexcontainertextbtn1:hover {
+    background-color: rgb(6, 24, 143);
+    color: white;
+    font-size: large;
+}
+
+.flexcontainertextbtn2 {
+    position: absolute;
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    border: solid rgb(6, 24, 143);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    bottom: 420px;
+    left: 320px;
+}
+
+.flexcontainertextbtn2:hover {
+    background-color: rgb(6, 24, 143);
+    color: white;
+    font-size: large;
+}
+
+.macbookdetail {
+    position: relative;
+}
+
+.flexcontainertextr1 {
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    bottom: 500px;
+    left: 850px;
+}
+
+.flexcontainertextr2 {
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    bottom: 465px;
+    left: 810px;
+}
+
+.flexcontainertextbtnr {
+    display: flex;
+}
+
+.flexcontainertextbtnr1 {
+    position: absolute;
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    background-color: rgb(6, 24, 143);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    bottom: 420px;
+    left: 800px;
+}
+
+.flexcontainertextbtnr1:hover {
+    background-color: rgb(6, 24, 143);
+    color: white;
+    font-size: large;
+}
+
+.flexcontainertextbtnr2 {
+    position: absolute;
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    color: black;
+    border-radius: 15px;
+    border: solid rgb(6, 24, 143);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    bottom: 420px;
+    left: 940px;
+}
+
+.flexcontainertextbtnr2:hover {
+    background-color: rgb(6, 24, 143);
+    color: white;
+    font-size: large;
+}
+
+.midbar {
+    align-items: start;
+    position: relative;
+}
+
+.productoptn {
+    display: flex;
+}
+
+.productoptn1 {
+    position: absolute;
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    background-color: rgb(6, 24, 143);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    bottom: 521px;
+    left: 200px;
+}
+
+.productoptn1:hover {
+    background-color: rgb(6, 24, 143);
+    color: white;
+    font-size: large;
+}
+
+.productoptn2 {
+    position: absolute;
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    border: solid rgb(6, 24, 143);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    bottom: 521px;
+    left: 345px;
+}
+
+.productoptn2:hover {
+    background-color: rgb(6, 24, 143);
+    color: white;
+    font-size: large;
+}
+
+.VR {
+    display: flex;
+}
+
+.midbarname {
+    position: absolute;
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    background-color: rgb(6, 24, 143);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    bottom: 100px;
+    left: 835px;
+}
+
+.midbarname:hover {
+    background-color: rgb(6, 24, 143);
+    color: white;
+    font-size: large;
+}
+
+.midbarname2 {
+    position: absolute;
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    color: black;
+    border-radius: 15px;
+    border: solid rgb(6, 24, 143);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    bottom: 100px;
+    left: 969px;
+}
+
+.midbarname2:hover {
+    background-color: rgb(6, 24, 143);
+    color: white;
+    font-size: large;
+}
+
+.lastbar02 {
+    display: flex;
+    position: relative;
+}
+
+.lastbarproductoptn1 {
+    position: absolute;
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    background-color: rgb(6, 24, 143);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    bottom: 500px;
+    left: 180px;
+}
+
+.lastbarproductoptn1:hover {
+    background-color: rgb(6, 24, 143);
+    color: white;
+    font-size: large;
+}
+
+.lastbarproductoptn2 {
+    position: absolute;
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    color: black;
+    border-radius: 15px;
+    border: solid rgb(6, 24, 143);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    bottom: 500px;
+    left: 320px;
+}
+
+.lastbarproductoptn2:hover {
+    background-color: rgb(6, 24, 143);
+    color: white;
+    font-size: large;
+}
+
+.mobile {
+    display: flex;
+    position: relative;
+}
+
+.mobilename {
+    position: absolute;
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    background-color: rgb(6, 24, 143);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    bottom: 500px;
+    left: 800px;
+}
+
+.mobilename:hover {
+    background-color: rgb(6, 24, 143);
+    color: white;
+    font-size: large;
+}
+
+.mobilename2 {
+    position: absolute;
+    height: 32px;
+    width: 120px;
+    text-align: center;
+    color: black;
+    border-radius: 15px;
+    border: solid rgb(6, 24, 143);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    bottom: 500px;
+    left: 940px;
+}
+
+.mobilename2:hover {
+    background-color: rgb(6, 24, 143);
+    color: white;
+    font-size: large;
+}
+
+.dots {
+    text-align: center;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+}
+
+.arrowright {
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+.arrowright:hover {
+    background-color: rgba(189, 182, 182, 0.1);
+}
+
+.arrowleft {
+    cursor: pointer;
+}
+
+.arrowleft:hover {
+    background-color: rgba(189, 182, 182, 0.1);
+}
+
+.frame {
+    height: 500px;
+    width: 1400px;
+    overflow: hidden;
+    box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.sliderimg {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.movingslidercontainer {
+    position: relative;
+}
+
+.movingslider {
+    overflow: hidden;
+}
+
+.sliderinnerimages {
+    display: flex;
+    animation: slide 30s linear infinite;
+}
+
+.sliderinnerimages img {
+    width: 50%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+#controlbtn {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#controlbtn {
+    border: none;
+    border-radius: 10px;
+    opacity: 0.1;
+}
+
+#controlbtn:hover {
+    opacity: 1;
+    transition: 1s;
+    background-color: cornsilk;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.paused {
+    animation-play-state: paused;
+}
+
+.footer {
+    width: 99%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #ebe3e3fb;
+}
+
+.startfoot {
+    margin-left: 1%;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.end {
+    /* height: 100%; */
+    width: 99%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #f8f8f8;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+.endfooter.a {
+    display: flex;
+    color: black;
+    /* margin-bottom: 5px; */
+}
+
+/* .storedrpdwn{
+    position: relative;
+} */
+.storecontent {
+    position: absolute;
+}
+
+.storecontent a {
+    display: block;
+}
+
+.storecontent a:hover {
+    background-color: antiquewhite;
+}
+
+/* .storedrpdwn:hover.explorestore {
+    display: block;
+} */
+
+a {
+    text-decoration: none;
+    margin: 20px;
+    align-items: center;
+}
+
+.navbarItems {
+    display: flex;
+}
+
+.navbar {
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    margin-left: 80px;
+}
+
+img {
+    margin: 10px;
+}
+
+a {
+    color: black;
+}
+
+.dropdown01 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content01 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown_content01 .column {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown_content01 a {
+    color: black;
+    padding: 15px;
+    margin: 1px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_content01 a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown01:hover .dropdown_content01 {
+    display: flex;
+}
+
+.dropdown_content01.column:hover {
+    width: 100vw;
+}
+
+.C01 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.C011 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.dropdown02 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content02 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown_content02 .column02 {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown_content02 a {
+    color: black;
+    padding: 15px;
+    margin: 1px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_content02 a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown02:hover .dropdown_content02 {
+    display: flex;
+}
+
+.dropdown_content02.column:hover {
+    width: 100vw;
+}
+
+.C02 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.C022 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.dropdown03 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content03 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown_content03 .column03 {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown_content03 a {
+    color: black;
+    padding: 15px;
+    margin: 1px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_content03 a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown03:hover .dropdown_content03 {
+    display: flex;
+}
+
+.dropdown_content03.column:hover {
+    width: 100vw;
+}
+
+.C03 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.C033 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dropdown04 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content04 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown_content04 .column04 {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown_content04 a {
+    color: black;
+    padding: 15px;
+    margin: 1px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_content04 a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown04:hover .dropdown_content04 {
+    display: flex;
+}
+
+.dropdown_content04.column:hover {
+    width: 100vw;
+}
+
+.C04 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.C044 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dropdown05 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content05 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown_content05 .column05 {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown_content05 a {
+    color: black;
+    padding: 15px;
+    margin: 1px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_content05 a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown05:hover .dropdown_content05 {
+    display: flex;
+}
+
+.dropdown_content05.column:hover {
+    width: 100vw;
+}
+
+.C05 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.C055 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dropdown06 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content06 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown_content06 .column06 {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown_content06 a {
+    color: black;
+    padding: 15px;
+    margin: 1px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_content06 a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown06:hover .dropdown_content06 {
+    display: flex;
+}
+
+.dropdown_content06.column:hover {
+    width: 100vw;
+}
+
+.C06 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.C066 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dropdown07 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content07 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown_content07 .column07 {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown_content07 a {
+    color: black;
+    padding: 15px;
+    margin: 1px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_content07 a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown07:hover .dropdown_content07 {
+    display: flex;
+}
+
+.dropdown_content07.column:hover {
+    width: 100vw;
+}
+
+.C07 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.C077 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dropdown08 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content08 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    /* width: 44vw; */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.column08 {
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+.dropdown_content08 a {
+    color: black;
+    padding: 1px;
+    /* Add padding for better spacing */
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_content08 a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown08:hover .dropdown_content08 {
+    display: flex;
+}
+
+.C08,
+.C088 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dropdown09 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content09 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.column09 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* margin: -10px; */
+    width: 14vw;
+}
+
+.dropdown_content09 a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_content09 a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown09:hover .dropdown_content09 {
+    display: flex;
+}
+
+.C09,
+.C099 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dropdown10 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content10 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.column10 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 22vw;
+}
+
+.dropdown_content10 a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_content10 a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown10:hover .dropdown_content10 {
+    display: flex;
+    /* Show the dropdown content on hover */
+}
+
+.C010,
+.C0100 {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo{
+    margin-top: 8px;
+}
